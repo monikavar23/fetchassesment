@@ -113,7 +113,7 @@ ALTERNATE METHOD OF TESTING ON LOCAL SYSTEM: (only done locally if to test on do
 
 - python3 FetchReceipts.py
 - copy url prompted on terminal: sample url: http://127.0.0.1:105
-testing id generation using postman:
+{testing id generation using postman:}
 - enusre python code is running
 - select POST request on postman
 - add http://127.0.0.1:105/receipts/process as url
@@ -121,7 +121,7 @@ testing id generation using postman:
 - choose format of bosy as JSON
 - send request
 - you will see ID on the terminal
-testing points generation usinng postman:
+{testing points generation usinng postman:}
 - enusre python code is running
 - select GET request on postman
 - add http://127.0.0.1:105/receipts//points as url (in place of add df9b6eb0-ab0c-11ed-971a-1e00da34dd31)
