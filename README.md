@@ -40,7 +40,7 @@ from here you can test:
 
 - sample curl command:
 
-  curl --location --request GET 'http://127.0.0.1:105/receipts/process' \
+  curl --location --request POST 'http://127.0.0.1:105/receipts/process' \
 --header 'Content-Type: application/json' \
 --data-raw '{
    "retailer":"Target",
@@ -68,7 +68,6 @@ from here you can test:
   ],
   "total": "35.35"
 }'
-
 
 
 - you will see points generated on terminal
